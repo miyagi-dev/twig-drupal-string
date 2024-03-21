@@ -1,0 +1,8 @@
+welcome:
+  default: Hello world
+
+greeting:
+  default: Hello @name
+
+see.ya:
+  comment: No default?

@@ -1,0 +1,64 @@
+{
+	"name": "twig-drupal-string",
+	"version": "0.0.0",
+	"type": "module",
+	"description": "Twig extension for Drupal String",
+	"keywords": [
+		"twig",
+		"drupal",
+		"string",
+		"translation"
+	],
+	"homepage": "https://github.com/miyagi-dev/twig-drupal-string",
+	"bugs": {
+		"url": "https://github.com/miyagi-dev/twig-drupal-string/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/miyagi-dev/twig-drupal-string.git"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Fynn Becker",
+		"email": "post@fynn.be",
+		"url": "https://fynn.be"
+	},
+	"contributors": [
+		{
+			"name": "Judith Plath"
+		}
+	],
+	"main": "./lib/index.cjs",
+	"exports": {
+		".": {
+			"import": "./lib/index.js",
+			"require": "./lib/index.cjs"
+		}
+	},
+	"files": [
+		"lib",
+		"index.d.ts"
+	],
+	"scripts": {
+		"lint": "eslint .",
+		"test": "node --test",
+		"format": "prettier --write .",
+		"build": "esbuild lib/index.js --outfile=lib/index.cjs --platform=node --format=cjs",
+		"version": "conventional-changelog --preset angular --infile CHANGELOG.md --same-file && git add CHANGELOG.md",
+		"prepublish": "npm run lint && npm run test && npm run build"
+	},
+	"dependencies": {
+		"@types/twig": "^1.12.16",
+		"yaml": "^2.4.1"
+	},
+	"devDependencies": {
+		"@eslint/js": "^8.57.0",
+		"conventional-changelog-cli": "^4.1.0",
+		"esbuild": "^0.20.2",
+		"eslint": "^8.57.0",
+		"eslint-plugin-simple-import-sort": "^12.0.0",
+		"globals": "^14.0.0",
+		"prettier": "^3.2.5",
+		"twig": "^1.17.1"
+	}
+}
