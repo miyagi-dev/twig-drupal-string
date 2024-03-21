@@ -1,6 +1,6 @@
 {
 	"name": "twig-drupal-string",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"type": "module",
 	"description": "Twig extension for Drupal String",
 	"keywords": [
