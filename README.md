@@ -82,6 +82,16 @@ twigDrupalString({
 });
 ```
 
+## Options
+
+The `twigDrupalString` method receives an options object with the following properties:
+
+| Property | Type       | Description                                   |
+| -------- | ---------- | --------------------------------------------- |
+| `Twig`   | `Twig`     | Twig.js engine instance                       |
+| `files`  | `string[]` | Array of paths to translation srings          |
+| `watch`  | `boolean`  | Enable or disable watch mode, default `false` |
+
 ## Contributing
 
 See [contributing documentation](CONTRIBUTING.md) for more information.
