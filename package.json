@@ -48,7 +48,6 @@
 		"prepublish": "npm run lint && npm run test && npm run build"
 	},
 	"dependencies": {
-		"@types/twig": "^1.12.16",
 		"yaml": "^2.4.1"
 	},
 	"devDependencies": {

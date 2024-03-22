@@ -1,8 +1,8 @@
-import twig from "twig";
+import Twig from "twig";
 
 type Options = {
 	/** Twig engine instance */
-	twig: typeof twig;
+	twig: typeof Twig;
 
 	/** Paths to translation string files */
 	files: string[];
