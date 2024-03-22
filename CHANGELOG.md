@@ -1,3 +1,17 @@
+# [0.3.0](https://github.com/miyagi-dev/twig-drupal-string/compare/v0.2.0...v0.3.0) (2024-03-22)
+
+
+### Features
+
+* Uppercase Twig option ([f923c1d](https://github.com/miyagi-dev/twig-drupal-string/commit/f923c1d235b6ea50f7b8e1f7c80cabbaefb3d151))
+
+
+### BREAKING CHANGES
+
+* Uppercase Twig option to align with Twig.js documentation.
+
+
+
 # [0.2.0](https://github.com/miyagi-dev/twig-drupal-string/compare/v0.1.0...v0.2.0) (2024-03-22)
 
 
