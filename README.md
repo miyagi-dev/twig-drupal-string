@@ -26,7 +26,7 @@ import Twig from "twig";
 import { twigDrupalString } from "twig-drupal-string";
 
 twigDrupalString({
-  twig: Twig,
+  Twig,
   files: ["strings.yaml"],
 });
 
@@ -76,7 +76,7 @@ Set the `watch` options:
 
 ```js
 twigDrupalString({
-  twig: Twig,
+  Twig,
   files: ["strings.yaml"],
   watch: true,
 });

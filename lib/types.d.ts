@@ -2,7 +2,7 @@ import Twig from "twig";
 
 type Options = {
 	/** Twig engine instance */
-	twig: typeof Twig;
+	Twig: typeof Twig;
 
 	/** Paths to translation string files */
 	files: string[];
