@@ -1,3 +1,12 @@
+## [0.3.1](https://github.com/miyagi-dev/twig-drupal-string/compare/v0.3.0...v0.3.1) (2024-03-22)
+
+
+### Bug Fixes
+
+* Update CommonJS build ([7bcdf05](https://github.com/miyagi-dev/twig-drupal-string/commit/7bcdf054cedeb41821efb0df3c730c549f038b3e))
+
+
+
 # [0.3.0](https://github.com/miyagi-dev/twig-drupal-string/compare/v0.2.0...v0.3.0) (2024-03-22)
 
 
