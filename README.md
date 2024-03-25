@@ -16,7 +16,7 @@ Crate a file called `strings.yaml` with the following content:
 
 ```yaml
 welcome:
-  default: Hello world
+  default: Welcome
 ```
 
 Then create `render-template.mjs`:
