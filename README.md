@@ -89,14 +89,14 @@ The `twigDrupalString` method receives an options object with the following prop
 | Property | Type       | Description                                   |
 | -------- | ---------- | --------------------------------------------- |
 | `Twig`   | `Twig`     | Twig.js engine instance                       |
-| `files`  | `string[]` | Array of paths to translation srings          |
+| `files`  | `string[]` | Array of paths to translation string files    |
 | `watch`  | `boolean`  | Enable or disable watch mode, default `false` |
 
 ## Contributing
 
 See [contributing documentation](CONTRIBUTING.md) for more information.
 
-## Sponsored by
+## Sponsors
 
 <a href="https://factorial.io/">
   <img src="https://logo.factorial.io/color.svg" width="40" height="56" alt="Factorial">
