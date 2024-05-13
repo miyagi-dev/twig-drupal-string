@@ -40,23 +40,23 @@
 		"index.d.ts"
 	],
 	"scripts": {
-		"lint": "eslint '**/*.js'",
+		"lint": "eslint",
 		"test": "node --test",
 		"format": "prettier --write .",
 		"build": "esbuild lib/index.js --outfile=lib/index.cjs --platform=node --format=cjs",
 		"version": "conventional-changelog --preset angular --infile CHANGELOG.md --same-file && git add CHANGELOG.md",
-		"prepare": "npm run lint && npm run test && npm run build"
+		"prepack": "npm run lint && npm run test && npm run build"
 	},
 	"dependencies": {
-		"yaml": "^2.4.1"
+		"yaml": "^2.4.2"
 	},
 	"devDependencies": {
-		"@eslint/js": "^8.57.0",
-		"conventional-changelog-cli": "^4.1.0",
-		"esbuild": "^0.20.2",
-		"eslint": "^8.57.0",
-		"eslint-plugin-simple-import-sort": "^12.0.0",
-		"globals": "^14.0.0",
+		"@eslint/js": "^9.2.0",
+		"conventional-changelog-cli": "^5.0.0",
+		"esbuild": "^0.21.2",
+		"eslint": "^9.2.0",
+		"eslint-plugin-simple-import-sort": "^12.1.0",
+		"globals": "^15.2.0",
 		"prettier": "^3.2.5",
 		"twig": "^1.17.1"
 	}
