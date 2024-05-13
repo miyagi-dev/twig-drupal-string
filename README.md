@@ -68,6 +68,21 @@ const output = template.render();
 // <h1>Hello world</h1>
 ```
 
+## Custom filter names
+
+By default, the filter names `t` and `trans` are supported. You can overwrite or extend these names with the `filterNames` option:
+
+```js
+import Twig from "twig";
+import { twigDrupalString } from "twig-drupal-string";
+
+twigDrupalString({
+  Twig,
+  files: ["strings.yaml"],
+  filterNames: ["t", "trans", "tc"],
+});
+```
+
 ## Watch mode
 
 For development purposes, a watch mode can be enabled that reloads the translation strings from disk if any of the referenced files change.
@@ -86,11 +101,12 @@ twigDrupalString({
 
 The `twigDrupalString` method receives an options object with the following properties:
 
-| Property | Type       | Description                                   |
-| -------- | ---------- | --------------------------------------------- |
-| `Twig`   | `Twig`     | Twig.js engine instance                       |
-| `files`  | `string[]` | Array of paths to translation string files    |
-| `watch`  | `boolean`  | Enable or disable watch mode, default `false` |
+| Property      | Type       | Description                                            |
+| ------------- | ---------- | ------------------------------------------------------ |
+| `Twig`        | `Twig`     | Twig.js engine instance                                |
+| `files`       | `string[]` | Array of paths to translation string files             |
+| `filterNames` | `string[]` | Array of filter name strings, default `["t", "trans"]` |
+| `watch`       | `boolean`  | Enable or disable watch mode, default `false`          |
 
 ## Contributing
 

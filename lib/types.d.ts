@@ -1,13 +1,28 @@
 import Twig from "twig";
 
 type Options = {
-	/** Twig engine instance */
+	/**
+	 * Twig engine instance
+	 */
 	Twig: typeof Twig;
 
-	/** Paths to translation string files */
+	/**
+	 * Paths to translation string files
+	 */
 	files: string[];
 
-	/** Enable watch mode (disabled by default) */
+	/**
+	 * Adjust the filter names
+	 *
+	 * Default: `["t", "trans"]`
+	 */
+	filterNames?: string[];
+
+	/**
+	 * Enable watch mode
+	 *
+	 * Default: `false`
+	 */
 	watch?: boolean;
 };
 

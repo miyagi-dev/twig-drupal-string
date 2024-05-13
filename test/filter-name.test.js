@@ -28,4 +28,18 @@ suite("filter name", () => {
 
 		assert.equal(result, expected);
 	});
+
+	test("custom: tc", () => {
+		const Twig = createTwigInstance();
+		twigDrupalString({
+			Twig,
+			files: ["./test/strings.yaml"],
+			filterNames: ["tc"],
+		});
+
+		const data = `<h1>{{ 'welcome'|tc }}</h1>`;
+		const result = Twig.twig({ data }).render();
+
+		assert.equal(result, expected);
+	});
 });
