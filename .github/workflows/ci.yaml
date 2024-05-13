@@ -12,7 +12,7 @@ jobs:
         with:
           node-version: 22
       - run: npm ci
-      - run: npm run lint
+      - run: node --run lint
 
   test:
     name: Test
@@ -23,4 +23,4 @@ jobs:
         with:
           node-version: 22
       - run: npm ci
-      - run: npm run test
+      - run: node --run test

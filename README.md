@@ -73,9 +73,6 @@ const output = template.render();
 By default, the filter names `t` and `trans` are supported. You can overwrite or extend these names with the `filterNames` option:
 
 ```js
-import Twig from "twig";
-import { twigDrupalString } from "twig-drupal-string";
-
 twigDrupalString({
   Twig,
   files: ["strings.yaml"],
