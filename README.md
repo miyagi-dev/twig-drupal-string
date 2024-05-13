@@ -98,6 +98,6 @@ See [contributing documentation](CONTRIBUTING.md) for more information.
 
 ## Sponsors
 
-<a href="https://factorial.io/">
-  <img src="https://logo.factorial.io/color.svg" width="40" height="56" alt="Factorial">
+<a href="https://factorial.io/" title="Factorial GmbH">
+  <img src="https://logo.factorial.io/sq/white-on-black.svg" width="100" height="100" alt="Factorial GmbH">
 </a>
