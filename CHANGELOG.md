@@ -1,3 +1,12 @@
+# [0.4.0](https://github.com/miyagi-dev/twig-drupal-string/compare/v0.3.1...v0.4.0) (2024-05-13)
+
+
+### Features
+
+* Configurable filter names ([5b76bb0](https://github.com/miyagi-dev/twig-drupal-string/commit/5b76bb046a06d6d5afaba5db75da0669232fe9f4))
+
+
+
 ## [0.3.1](https://github.com/miyagi-dev/twig-drupal-string/compare/v0.3.0...v0.3.1) (2024-03-22)
 
 
