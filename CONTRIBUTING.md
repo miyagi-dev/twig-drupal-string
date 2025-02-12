@@ -2,12 +2,6 @@
 
 ## Getting started
 
-Optionally choose the correct Node.js version with [nvm](https://nvm.sh/) installed:
-
-```sh
-nvm use
-```
-
 Install dependencies with:
 
 ```sh
@@ -44,7 +38,7 @@ Bump the package version and generate a changelog:
 npm version …
 ```
 
-See [npm version docs](https://docs.npmjs.com/cli/v10/commands/npm-version) for all available arguments.
+See [npm version docs](https://docs.npmjs.com/cli/commands/npm-version) for all available arguments.
 
 Publish the new version with:
 
